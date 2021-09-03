@@ -19,22 +19,27 @@ var app = express()
 // var seller = require('../static/seller.json')
 // var goods = require('../static/goods.json')
 // var ratings = require('../static/ratings.json')
+var appData = require('../data.json');
+var seller = appData.seller;
+var goods = appData.goods;
+var ratings = appData.ratings;
 
-// var apiRoutes = express.Router()
 
-// apiRoutes.get('/seller', function (req, res) {
-//   res.json(seller);
-// })
+var apiRoutes = express.Router()
 
-// apiRoutes.get('/goods', function (req, res) {
-//   res.json(goods);
-// })
+apiRoutes.get('/seller', function (req, res) {
+  res.json(seller);
+})
 
-// apiRoutes.get('/ratings', function (req, res) {
-//   res.json(ratings);
-// })
+apiRoutes.get('/goods', function (req, res) {
+  res.json(goods);
+})
 
-// app.use('/api', apiRoutes)
+apiRoutes.get('/ratings', function (req, res) {
+  res.json(ratings);
+})
+
+app.use('/api', apiRoutes)
 
 var compiler = webpack(webpackConfig);
 
