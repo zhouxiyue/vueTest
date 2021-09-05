@@ -18,7 +18,6 @@
 
 <script type="text/ecmascript-6">
   import header from 'components/header/header';
-  const ERR_OK = 0;
   export default {
     data() {
       return {
@@ -27,9 +26,9 @@
     },
     created() {
       this.$http.get('/api/seller').then((response) => {
-        response = response.body;
-        if (response.errno === ERR_OK) {
-          this.seller = response.data;
+        console.log(response);
+        if (response.ok) {
+          this.seller = response.body;
           console.log(this.seller);
         }
       });
