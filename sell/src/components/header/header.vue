@@ -17,6 +17,10 @@
           <span class="text">{{seller.supports[0].description}}</span>
         </div>
       </div>
+      <div v-if="seller.supports" class="support-count">
+        <span class="count">{{seller.supports.length}}个</span>
+        <i class="icon-keyboard_arrow_right"></i>
+      </div>
     </div>
     <div class="bulletin-wrapper"></div>
   </div>
@@ -36,12 +40,13 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  @import "../../common/stylus/mixin";
+  @import "../../common/stylus/mixin.styl";
 
   .header
     color: #fff
-    background : #000
+    background : #999
     .content-wrapper
+      position: relative
       padding:24px 12px 18px 24px
       font-size: 0
       .avatar
@@ -49,7 +54,7 @@
         vertical-align: top
         img
           border-radius: 2px
-      .context
+      .content
         display: inline-block
         margin-left: 16px
         /*font-size: 14px*/
@@ -77,7 +82,7 @@
             display: inline-block
             vertical-align: top
             width: 12px
-            weight: 12px
+            height: 12px
             margin-right: 4px
             background-size: 12px 12px
             background-repeat: no-repeat
@@ -93,5 +98,22 @@
               bg-image('special_1')
           .text
             line-height: 12px
-            font-size: 12px
+            font-size: 10px
+      .support-count
+        position: absolute
+        right: 12px
+        bottom: 14px
+        padding: 0 8px
+        height: 24px
+        line-height: 24px
+        border-radius: 14px
+        background:rgba(0,0,0,0.2)
+        text-align: center
+        .count
+          vertical-align: top
+          font-size: 10px
+        .icon-keyboard_arrow_right
+          margin-left: 2px
+          line-height: 24px
+          font-size: 10px
 </style>
