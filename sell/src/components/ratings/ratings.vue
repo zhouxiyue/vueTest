@@ -1,4 +1,5 @@
 <template>
+  <div class="content">I am ratings</div>
 </template>
 
 <script>

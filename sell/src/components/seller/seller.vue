@@ -1,4 +1,5 @@
 <template>
+  <div class="content">I am seller</div>
 </template>
 
 <script>
