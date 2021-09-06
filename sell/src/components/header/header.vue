@@ -33,7 +33,14 @@
       <div class="detail-wrapper clearfix">
         <div class="detail-main">
           <h1 class="name">{{seller.name}}</h1>
-          <star :size="48" :score="seller.score"></star>
+          <div class="star-wrapper">
+            <star :size="48" :score="seller.score"></star>
+          </div>
+          <div class="title">
+            <div class="line"></div>
+            <div class="text">优惠信息</div>
+            <div class="line"></div>
+          </div>
         </div>
       </div>
       <div class="detail-close">
@@ -179,7 +186,6 @@
         font-size: 10px
         right:12px
         top: 8px
-
     .background
       position: absolute
       top: 0
@@ -188,7 +194,7 @@
       height: 100%
       z-index: -1
       filter: blur(10px)
-    .detail
+    .detail {
       position: fixed
       z-index: 100
       top: 0
@@ -196,23 +202,54 @@
       width: 100%
       height: 100%
       overflow: auto
-      background: rgba(7,17,27,0.8)
-      .detail-wrapper
+      background: rgba(7, 17, 27, 0.8)
+
+      .detail-wrapper {
         width: 100%
         min-height: 100%
-        .detail-main
+
+        .detail-main {
           margin-top: 64px
           padding-bottom: 64px
-          .name
+
+          .name {
             line-height: 16px
             text-align: center
             font-size: 16px
             font-weight: 700
-        .detail-close
-          position: relative
-          width: 32px
-          height: 32px
-          margin: -64px auto 0 auto
-          clear: both
-          font-size: 32px
+          }
+          .star-wrapper {
+            margin-top: 18px
+            padding: 2px
+            text-align: center
+          }
+          .title {
+            display: flex
+            width: 80%
+            margin: 30px auto 24px auto
+
+            .line {
+              flex: 1
+              position: relative
+              top: -6px
+              border-bottom: 1px solid rgba(225, 225, 225, 0.2)
+            }
+
+            .text {
+              padding: 0 12px
+              font-size: 14px
+            }
+          }
+        }
+      }
+
+      .detail-close {
+        position: relative
+        margin: -64px auto 0 auto
+        width: 32px
+        height: 32px
+        clear: both
+        font-size: 32px
+      }
+    }
 </style>
