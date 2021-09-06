@@ -2,120 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="281b405f-5b60-404c-a4ab-5ca2f7ea8cfc" name="Default Changelist" comment="response 数据结构变了。。">
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖01_商品页.mkm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖01_商品页.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖01_商品页_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖02_商品页_公告及优惠信息.mkm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖02_商品页_公告及优惠信息.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖02_商品页_公告及优惠信息_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖03_商品页_购物车详情.mkm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖03_商品页_购物车详情.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖03_商品页_购物车详情_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖04_商品页面_商品详情.mkm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖04_商品页面_商品详情.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖04_商品页面_商品详情_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖05_评价页.mkm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖05_评价页.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖05_评价页_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖06_商家页.mkm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖06_商家页.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/PSD/外卖06_商家页_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/SVG/add_circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/SVG/arrow_lift.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/SVG/check_circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/SVG/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/SVG/favorite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/SVG/keyboard_arrow_right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/SVG/remove_circle_outline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/SVG/shopping_cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/SVG/thumb_down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/SVG/thumb_up.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/PSD/icon_@2x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/PSD/icon_@3x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/PSD/star_24px_@2x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/PSD/star_24px_@3x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/PSD/star_36px_@2x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/PSD/star_36px_@3x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/PSD/star_48px_@2x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/PSD/star_48px_@3x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/brand@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/brand@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/bulletin@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/bulletin@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/decrease_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/decrease_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/decrease_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/decrease_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/decrease_3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/decrease_3@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/decrease_4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/decrease_4@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/discount_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/discount_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/discount_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/discount_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/discount_3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/discount_3@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/discount_4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/discount_4@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/guarantee_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/guarantee_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/guarantee_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/guarantee_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/guarantee_3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/guarantee_3@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/guarantee_4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/guarantee_4@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/invoice_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/invoice_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/invoice_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/invoice_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/invoice_3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/invoice_3@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/invoice_4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/invoice_4@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/special_1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/special_1@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/special_2@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/special_2@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/special_3@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/special_3@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/special_4@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/special_4@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star24_half@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star24_half@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star24_off@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star24_off@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star24_on@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star24_on@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star36_half@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star36_half@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star36_off@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star36_off@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star36_on@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star36_on@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star48_half@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star48_half@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star48_off@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star48_off@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star48_on@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/img/star48_on@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/外卖01_商品页.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/外卖02_商品页_公告及优惠信息.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/外卖03_商品页_购物车详情.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/外卖04_商品页面_商品详情.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/外卖05_评价页.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/外卖06_商家页.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/标注/外卖01_商品页_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/标注/外卖02_商品页_公告及优惠信息_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/标注/外卖03_商品页_购物车详情_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/标注/外卖04_商品页面_商品详情_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/标注/外卖05_评价页_spec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/标注/外卖06_商家页_spec.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.vue" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/node_modules/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,18 +26,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/header/header.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="103" column="19" lean-forward="true" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+            <state relative-caret-position="262">
+              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding>
+                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
-                <element signature="e#1068#1158#0" />
-                <element signature="e#1331#2531#0" />
-                <element signature="e#1210#1604#0" />
-                <element signature="e#1500#1604#0" />
-                <element signature="e#1636#1709#0" />
-                <element signature="e#1977#2502#0" />
-                <element signature="e#2486#2544#0" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
+                <element signature="e#1331#3205#0" />
+                <element signature="e#2185#2695#0" />
+                <element signature="e#2799#3205#0" />
+                <element signature="e#3384#4046#0" />
               </folding>
             </state>
           </provider>
@@ -160,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/stylus/icon.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
+            <state relative-caret-position="1836">
               <caret line="51" selection-start-line="51" selection-end-line="52" selection-end-column="18" />
             </state>
           </provider>
@@ -169,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/stylus/base.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
+            <state relative-caret-position="180">
               <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
@@ -178,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/stylus/mixin.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
+            <state relative-caret-position="540">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
@@ -187,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
+            <state relative-caret-position="720">
               <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
@@ -218,9 +109,8 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="338" />
-    <option name="y" value="79" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
@@ -231,7 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,7 +208,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -395,17 +285,18 @@
       <workItem from="1630665260055" duration="3967000" />
       <workItem from="1630809323700" duration="1357000" />
       <workItem from="1630811573611" duration="818000" />
+      <workItem from="1630893937787" duration="6592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17918000" />
+    <option name="totallyTimeSpent" value="25157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15511727" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19912472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -414,7 +305,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24093817" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24093817" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,7 +313,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3272921" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33046287" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -466,7 +357,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="response 数据结构变了。。" />
@@ -524,82 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/css/app.ed895e103e19d222a8f7fb98c25702b0.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret column="564" lean-forward="true" selection-end-column="227185" />
-          <folding>
-            <element signature="e#954#3449#2" expanded="true" />
-            <element signature="e#3638#10129#2" expanded="true" />
-            <element signature="e#10598#13025#2" expanded="true" />
-            <element signature="e#13170#16381#2" expanded="true" />
-            <element signature="e#16458#18925#2" expanded="true" />
-            <element signature="e#19070#22337#2" expanded="true" />
-            <element signature="e#22415#24962#2" expanded="true" />
-            <element signature="e#25108#28551#2" expanded="true" />
-            <element signature="e#28627#31294#2" expanded="true" />
-            <element signature="e#31438#35097#2" expanded="true" />
-            <element signature="e#35173#37836#2" expanded="true" />
-            <element signature="e#37980#41495#2" expanded="true" />
-            <element signature="e#42279#44626#2" expanded="true" />
-            <element signature="e#44809#49988#2" expanded="true" />
-            <element signature="e#52087#54234#2" expanded="true" />
-            <element signature="e#54405#58528#2" expanded="true" />
-            <element signature="e#58631#60690#2" expanded="true" />
-            <element signature="e#60861#65064#2" expanded="true" />
-            <element signature="e#65168#67271#2" expanded="true" />
-            <element signature="e#67443#72026#2" expanded="true" />
-            <element signature="e#72128#74243#2" expanded="true" />
-            <element signature="e#74413#79276#2" expanded="true" />
-            <element signature="e#79378#81521#2" expanded="true" />
-            <element signature="e#81691#86458#2" expanded="true" />
-            <element signature="e#87146#89193#2" expanded="true" />
-            <element signature="e#89308#91783#2" expanded="true" />
-            <element signature="e#91832#94251#2" expanded="true" />
-            <element signature="e#94368#98403#2" expanded="true" />
-            <element signature="e#98451#100470#2" expanded="true" />
-            <element signature="e#100586#103033#2" expanded="true" />
-            <element signature="e#103222#105081#2" expanded="true" />
-            <element signature="e#105196#107407#2" expanded="true" />
-            <element signature="e#107456#109567#2" expanded="true" />
-            <element signature="e#109684#112983#2" expanded="true" />
-            <element signature="e#113031#114874#2" expanded="true" />
-            <element signature="e#114990#117145#2" expanded="true" />
-            <element signature="e#117334#118981#2" expanded="true" />
-            <element signature="e#119096#120959#2" expanded="true" />
-            <element signature="e#121008#122835#2" expanded="true" />
-            <element signature="e#122952#125483#2" expanded="true" />
-            <element signature="e#125531#127186#2" expanded="true" />
-            <element signature="e#127302#129141#2" expanded="true" />
-            <element signature="e#129891#132650#2" expanded="true" />
-            <element signature="e#132784#136407#2" expanded="true" />
-            <element signature="e#136473#139172#2" expanded="true" />
-            <element signature="e#139306#142805#2" expanded="true" />
-            <element signature="e#142872#144667#2" expanded="true" />
-            <element signature="e#144802#147585#2" expanded="true" />
-            <element signature="e#147650#149453#2" expanded="true" />
-            <element signature="e#149586#152381#2" expanded="true" />
-            <element signature="e#152446#155317#2" expanded="true" />
-            <element signature="e#155450#159293#2" expanded="true" />
-            <element signature="e#177107#179266#2" expanded="true" />
-            <element signature="e#179396#184155#2" expanded="true" />
-            <element signature="e#184217#186312#2" expanded="true" />
-            <element signature="e#186442#191057#2" expanded="true" />
-            <element signature="e#191120#193051#2" expanded="true" />
-            <element signature="e#193182#196485#2" expanded="true" />
-            <element signature="e#196546#198505#2" expanded="true" />
-            <element signature="e#198634#202009#2" expanded="true" />
-            <element signature="e#202070#204265#2" expanded="true" />
-            <element signature="e#204394#209597#2" expanded="true" />
-            <element signature="e#210690#213693#2" expanded="true" />
-            <element signature="e#213698#216707#1" expanded="true" />
-            <element signature="e#216736#219504#1" expanded="true" />
-            <element signature="e#219524#222391#1" expanded="true" />
-            <element signature="e#222407#225968#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/css/app.ed895e103e19d222a8f7fb98c25702b0.css" />
     <entry file="file://$PROJECT_DIR$/src/components/goods/goods.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -621,48 +437,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/js/manifest.cc92fb913833d3766eea.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="775" selection-start-column="775" selection-end-column="775" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="620" lean-forward="true" selection-start-column="620" selection-end-column="620" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/js/vendor.e3c0520083379d2bb9e4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/js/app.55044cc4d52515e40b83.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="26490" selection-start-line="1" selection-start-column="26490" selection-end-line="1" selection-end-column="26490" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/stylus/base.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/manifest.cc92fb913833d3766eea.js" />
+    <entry file="file://$PROJECT_DIR$/dist/static/css/reset.css" />
+    <entry file="file://$PROJECT_DIR$/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/dist/static/js/vendor.e3c0520083379d2bb9e4.js" />
+    <entry file="file://$PROJECT_DIR$/dist/static/js/app.55044cc4d52515e40b83.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/d/test/lazy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -673,20 +452,7 @@
     <entry file="file://$PROJECT_DIR$/config/dev.env.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/stylus/mixin.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/__MACOSX/resource/标注/._外卖05_评价页_spec.png" />
     <entry file="file://$PROJECT_DIR$/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -696,31 +462,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/stylus/icon.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="1836">
           <caret line="51" selection-start-line="51" selection-end-line="52" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/__MACOSX/resource/标注/._外卖05_评价页_spec.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/common/stylus/base.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/stylus/mixin.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/标注/外卖01_商品页_spec.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/header.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="103" column="19" lean-forward="true" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+        <state relative-caret-position="262">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" />
-            <element signature="e#1068#1158#0" />
-            <element signature="e#1331#2531#0" />
-            <element signature="e#1210#1604#0" />
-            <element signature="e#1500#1604#0" />
-            <element signature="e#1636#1709#0" />
-            <element signature="e#1977#2502#0" />
-            <element signature="e#2486#2544#0" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#1331#3205#0" />
+            <element signature="e#2185#2695#0" />
+            <element signature="e#2799#3205#0" />
+            <element signature="e#3384#4046#0" />
           </folding>
         </state>
       </provider>
