@@ -13,7 +13,8 @@
           {{seller.description}}/{{seller.deliveryTime}}分钟送达
         </div>
         <div v-if="seller.supports" class="support">
-          <span class="icon" :class="classMap[seller.supports[0].type]"></span>
+          <!--<span class="icon" :class="classMap[seller.supports[0].type]"></span>-->
+          <mySpan v-show="1" :index="seller.supports[0].type" :type="1"></mySpan>
           <span class="text">{{seller.supports[0].description}}</span>
         </div>
       </div>
@@ -44,7 +45,8 @@
             </div>
             <ul v-if="seller.supports" class="supports">
               <li class="support-item" v-for="(item,index) in seller.supports">
-                <span class="icon" :class="classMap[seller.supports[index].type]"></span>
+                <!--<span class="icon" :class="classMap[seller.supports[index].type]"></span>-->
+                <mySpan v-show="1" :index="seller.supports[index].type" :type="2"></mySpan>
                 <span class="text">{{seller.supports[index].description}}</span>
               </li>
               <!--<li class="support-item" v-for="item in seller.supports">-->
@@ -69,6 +71,7 @@
 <script type="text/ecmascript-6">
   import star from 'components/star/star';
   import ltl from 'components/ltl/ltl';
+  import mySpan from 'components/mySpan/mySpan';
   export default {
     props: {
       seller: {
@@ -93,7 +96,8 @@
     },
     components: {
       star,
-      ltl
+      ltl,
+      mySpan
     }
   };
 </script>
@@ -220,8 +224,10 @@
       left: 0
       width: 100%
       height: 100%
+      overflow: auto
       opacity: 1
       background: rgba(7, 17, 27, 0.8)
+      backdrop-filter: blur(10px)
       &.fade-enter-active, &.fade-leave-active {
         transition: all 0.5s
       }
@@ -249,7 +255,7 @@
           .title {
             display: flex
             width: 80%
-            margin: 30px auto 24px auto
+            margin: 28px auto 24px auto
             .line {
               flex: 1
               position: relative
@@ -258,6 +264,7 @@
             }
             .text {
               padding: 0 12px
+              font-weight: 700
               font-size: 14px
             }
           }
@@ -277,7 +284,7 @@
                 height: 16px
                 vertical-align: top
                 margin-right: 6px
-                background-size: 16px
+                background-size: 16px 16px
                 background-repeat: no-repeat
 
                 &.decrease {
