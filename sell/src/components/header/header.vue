@@ -14,7 +14,7 @@
         </div>
         <div v-if="seller.supports" class="support">
           <!--<span class="icon" :class="classMap[seller.supports[0].type]"></span>-->
-          <mySpan v-show="1" :index="seller.supports[0].type" :type="1"></mySpan>
+          <mySpan :show="1" :index="seller.supports[0].type" :type="0"></mySpan>
           <span class="text">{{seller.supports[0].description}}</span>
         </div>
       </div>
@@ -46,7 +46,7 @@
             <ul v-if="seller.supports" class="supports">
               <li class="support-item" v-for="(item,index) in seller.supports">
                 <!--<span class="icon" :class="classMap[seller.supports[index].type]"></span>-->
-                <mySpan v-show="1" :index="seller.supports[index].type" :type="2"></mySpan>
+                <mySpan :show="1" :index="seller.supports[index].type" :type="1"></mySpan>
                 <span class="text">{{seller.supports[index].description}}</span>
               </li>
               <!--<li class="support-item" v-for="item in seller.supports">-->

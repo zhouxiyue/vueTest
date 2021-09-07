@@ -1,5 +1,5 @@
 <template>
-  <span v-show="show" class="icon" :class="[mapTop[type],classMap[index]]" ></span>
+  <span v-show="show===1" class="icon" :class="mapTop[type][index]" ></span>
 </template>
 
 <script type="text/ecmascript-6">
@@ -16,8 +16,8 @@
       }
     },
     created() {
-      this.classMap = ['decrease', 'discount', 'special', 'invoice', 'guarantee'];
-      this.classMap2 = ['decrease-1', 'discount-1', 'special-1', 'invoice-1', 'guarantee-1'];
+      this.classMap = ['decrease-1', 'discount-1', 'special-1', 'invoice-1', 'guarantee-1'];
+      this.classMap2 = ['decrease-2', 'discount-2', 'special-2', 'invoice-2', 'guarantee-2'];
       this.classMap3 = ['decrease-3', 'discount-3', 'special-3', 'invoice-3', 'guarantee-3'];
       this.mapTop = [this.classMap, this.classMap2, this.classMap3];
     }
@@ -31,18 +31,18 @@
     vertical-align: top
     width: 12px
     height: 12px
-    margin-right: 4px
+    margin-right: 2px
     background-size: 12px 12px
     background-repeat: no-repeat
-    &.decrease
+    &.decrease-1
       bg-image('decrease_1')
-    &.discount
+    &.discount-1
       bg-image('discount_1')
-    &.guarantee
+    &.guarantee-1
       bg-image('guarantee_1')
-    &.invoice
+    &.invoice-1
       bg-image('invoice_1')
-    &.special
+    &.special-1
       bg-image('special_1')
     &.decrease-2
       bg-image('decrease_2')
