@@ -6,7 +6,7 @@
           <span class="text border-1px">
             <!--<span v-show="item.type>0" class="icon"-->
                   <!--:class="classMap[item.type]"></span>{{item.name}}-->
-            <mySpan :show="item.type>0?1:0" :index="item.type" :type="2"></mySpan>{{item.name}}
+            <mySpan :show="item.type>0?1:0" :index="item.type" :type="2" :styleType="0"></mySpan>{{item.name}}
           </span>
         </li>
       </ul>
