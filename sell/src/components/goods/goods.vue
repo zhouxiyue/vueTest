@@ -2,7 +2,8 @@
   <div class="goods">
     <div class="menu-wrapper" ref="menuWrapper">
       <ul>
-        <li v-for="item in goods" class="menu-item">
+        <li v-for="(item,index) in goods" class="menu-item"
+            :class="{'current':currentIndex===index}">
           <span class="text border-1px">
             <mySpan :show="item.type>0?1:0" :index="item.type" :type="2" :styleType="0"></mySpan>{{item.name}}
           </span>
@@ -11,7 +12,7 @@
     </div>
     <div class="foods-wrapper" ref="foodsWrapper">
       <ul>
-        <li v-for="item in goods" class="food-list">
+        <li v-for="item in goods" class="food-list food-list-hook">
           <h1 class="title">{{item.name}}</h1>
           <ul>
             <li v-for="food in item.foods" class="food-item border-1px">
@@ -47,8 +48,22 @@
     },
     data() {
       return {
-        goods: []
+        goods: [],
+        listHeight: [],
+        scrollY: 0
       };
+    },
+    computed: {
+      currentIndex() {
+        for (let i = 0; i < this.listHeight.length; i++) {
+          let height1 = this.listHeight[i];
+          let height2 = this.listHeight[i + 1];
+          if (!height2 || (this.scrollY > height1 && this.scrollY < height2)) {
+            return i;
+          }
+        }
+        return 0;
+      }
     },
     created() {
       this.$http.get('/api/goods').then((response) => {
@@ -57,6 +72,7 @@
           // console.log(this.goods);
           this.$nextTick(() => {
             this._initScroll();
+            this._calculateHeight();
           });
         }
       });
@@ -64,8 +80,24 @@
     },
     methods: {
       _initScroll() {
-        this.menuScroll = new BScroll(this.$refs.menuWrapper, {});
-        this.foodScroll = new BScroll(this.$refs.foodsWrapper, {});
+        this.menuScroll = new BScroll(this.$refs.menuWrapper, {
+        });
+        this.foodScroll = new BScroll(this.$refs.foodsWrapper, {
+          probeType: 3
+        });
+        this.foodScroll.on('scroll', (pos) => {
+          this.scrollY = Math.abs(Math.round(pos.y));
+        });
+      },
+      _calculateHeight() {
+        let foodList = this.$refs.foodsWrapper.getElementsByClassName('food-list-hook');
+        let height = 0;
+        this.listHeight.push(height);
+        for (let i = 0; i < foodList.length; i++) {
+          let item = foodList[i];
+          height += item.clientHeight;
+          this.listHeight.push(height);
+        }
       }
     },
     components: {
@@ -93,6 +125,14 @@
         width: 56px
         padding: 0 12px
         line-height: 14px
+        &.current
+          position: relative
+          z-index: 10
+          margin_top: -1px
+          background: #fff
+          font-weight: 700
+          .text
+            border-none()
         .text
           display: table-cell
           width: 56px
@@ -129,10 +169,10 @@
             font-size: 14px
             color: rgb(7,17,27)
           .desc, .extra
-            line-height: 10px
             font-size: 10px
             color: rgb(147, 153, 159)
           .desc
+            line-height: 12px
             margin-bottom: 8px
           .extra
             line-height: 10px
