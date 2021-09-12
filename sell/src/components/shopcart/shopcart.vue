@@ -21,6 +21,8 @@
 </template>
 
 <script type="text/ecmascript-6">
+  import {getTotalPrice} from './utils/foods';
+
   export default {
     props: {
       selectFoods: {
@@ -45,11 +47,7 @@
     },
     computed: {
       totalPrice() {
-        let total = 0;
-        this.selectFoods.forEach((food) => {
-          total += food.price * food.count;
-        });
-        return total;
+        return getTotalPrice(this.selectFoods);
       },
       totalCount() {
         let count = 0;
