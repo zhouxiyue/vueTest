@@ -34,12 +34,14 @@
         </li>
       </ul>
     </div>
+    <shopCart></shopCart>
   </div>
 </template>
 
 <script type="text/ecmascript-6">
   import mySpan from 'components/mySpan/mySpan';
   import BScroll from 'better-scroll';
+  import shopCart from 'components/shopcart/shopcart';
   export default {
     props: {
       seller: {
@@ -101,7 +103,8 @@
       }
     },
     components: {
-      mySpan
+      mySpan,
+      shopCart
     }
   };
 </script>

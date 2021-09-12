@@ -6,16 +6,16 @@
   export default {
     props: {
       index: {
-        type: Object
+        type: Number
       },
       show: {
-        type: Object
+        type: Number
       },
       type: {
-        type: Object
+        type: Number
       },
       styleType: {
-        type: Object
+        type: Number
       }
     },
     created() {
@@ -28,7 +28,7 @@
   };
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
+<style scoped lang="stylus" rel="stylesheet/stylus">
   @import "../../common/stylus/mixin.styl"
   &.icon1
     display: inline-block
