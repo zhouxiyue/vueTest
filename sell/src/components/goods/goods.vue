@@ -28,13 +28,16 @@
                 <div class="price">
                   <span class="now">￥{{food.price}}</span><span class="old" v-show="food.oldPrice">￥{{food.oldPrice}}</span>
                 </div>
+                <div class="cartcontrol-wrapper">
+                  <cartcontrol :food="food"></cartcontrol>
+                </div>
               </div>
             </li>
           </ul>
         </li>
       </ul>
     </div>
-    <shopCart :delivery-price="seller.deliveryPrice" :min-price="seller.inPrice"></shopCart>
+    <shopCart ref="shopcart" :delivery-price="seller.deliveryPrice" :min-price="seller.inPrice"></shopCart>
   </div>
 </template>
 
@@ -82,10 +85,15 @@
       this.classMap = ['decrease', 'discount', 'special', 'invoice', 'guarantee'];
     },
     methods: {
+      _drop(target) {
+        this.$refs.shopcart.drop(target);
+      },
       _initScroll() {
         this.menuScroll = new BScroll(this.$refs.menuWrapper, {
+          click: true
         });
         this.foodScroll = new BScroll(this.$refs.foodsWrapper, {
+          click: true,
           probeType: 3
         });
         this.foodScroll.on('scroll', (pos) => {
@@ -107,6 +115,11 @@
       mySpan,
       shopCart,
       cartcontrol
+    },
+    events: {
+      'cart.add'(target) {
+        this._drop(target);
+      }
     }
   };
 </script>
@@ -194,4 +207,8 @@
               text-decoration: line-through
               font-size: 10px
               color: rgb(147, 153, 159)
+          .cartcontrol-wrapper
+            position: absolute
+            right: 0
+            bottom: 12px
 </style>
