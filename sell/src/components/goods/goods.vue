@@ -132,12 +132,13 @@
       mySpan,
       shopCart,
       cartcontrol
-    },
-    events: {
-      'cart.add'(target) {
-        this._drop(target);
-      }
     }
+    // deprecated
+    // events: {
+    //   ''(target) {
+    //     this._drop(target);
+    //   }
+    // }
   };
 </script>
 

@@ -20,7 +20,7 @@
     <div class="ball-container">
       <div v-for="ball in balls">
         <transition name="drop" @before-enter="beforeEnter" @enter="enter" @after-enter="afterEnter">
-          <div class="ball" v-show="ball.show">
+          <div class="ball" v-if="ball.show">
             <div class="inner inner-hook"></div>
           </div>
         </transition>
@@ -123,6 +123,7 @@
         }
       },
       beforeEnter(el) {
+        console.log(el);
         let count = this.balls.length;
         while (count--) {
           let ball = this.balls[count];
