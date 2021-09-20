@@ -4,7 +4,7 @@
       <div class="content-left">
         <div class="logo-wrapper">
           <div class="logo" :class="{'highlight':totalCount>0}">
-            <i class="icon-shopping_cart" :class="{'highlight':totalCount}"></i>
+            <i class="icon-shopping_cart" :class="{'highlight':totalCount>0}"></i>
           </div>
           <div class="num" v-show="totalCount>0">{{totalCount}}</div>
         </div>
@@ -30,7 +30,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-  import {getTotalPrice} from './utils/foods';
+  // import {getTotalPrice} from './utils/foods';
 
   export default {
     props: {
@@ -78,7 +78,12 @@
     },
     computed: {
       totalPrice() {
-        return getTotalPrice(this.selectFoods);
+        // return getTotalPrice(this.selectFoods);
+        let total = 0;
+        this.selectFoods.forEach((food) => {
+          total += food.price * food.count;
+        });
+        return total;
       },
       totalCount() {
         let count = 0;
@@ -203,6 +208,7 @@
           .num
             position: absolute
             top: 0
+            right: 0
             width: 24px
             height: 16px
             line-height: 16px
