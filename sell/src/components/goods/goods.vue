@@ -29,7 +29,7 @@
                   <span class="now">￥{{food.price}}</span><span class="old" v-show="food.oldPrice">￥{{food.oldPrice}}</span>
                 </div>
                 <div class="cartcontrol-wrapper">
-                  <cartcontrol :food="food"></cartcontrol>
+                  <cartcontrol :food="food" @add="_drop"></cartcontrol>
                 </div>
               </div>
             </li>
@@ -115,12 +115,13 @@
       mySpan,
       shopCart,
       cartcontrol
-    },
-    events: {
-      'cart.add'(target) {
-        this._drop(target);
-      }
     }
+    // deprecated
+    // events: {
+    //   'cart.add'(target) {
+    //     this._drop(target);
+    //   }
+    // }
   };
 </script>
 
